@@ -1,0 +1,57 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container principal */
+.home-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+.home-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Texto de introdução */
+.home-description {
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+}
+
+/* Botão para acessar o estoque */
+.stock-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.stock-button:hover {
+    background-color: #218838;
+}
+
+/* Rodapé */
+.home-footer {
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
